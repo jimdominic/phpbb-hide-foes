@@ -1,0 +1,27 @@
+{
+   "name": "captain/cornfieldfoeposts",
+   "type": "phpbb-extension",
+   "description": "Provides an option for users to completely hide posts by foes.",
+   "homepage": "http://www.skepticalcommunity.com",
+   "version": "1.0.0",
+   "time": "2016-03-08",
+   "keywords": ["phpbb", "extension", "cornfieldfoeposts"],
+   "license": "GPL-2.0",
+   "authors": [
+      {
+         "name": "Jim Dominic",
+         "email": "jimdominic@gmail.com",
+         "homepage": "http://www.skepticalcommunity.com",
+         "role": "Webmaster"
+      }
+   ],
+   "require": {
+      "php": ">=5.3.3"
+   },
+   "extra": {
+      "display-name": "Cornfield Foe Posts",
+      "soft-require": {
+         "phpbb/phpbb": "3.1.*"
+      }
+   }
+}
